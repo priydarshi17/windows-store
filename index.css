@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    background-color: rgb(2, 13, 13);
+    color: rgb(158, 168, 177);
+}
+
+.one {
+    width: 9.375rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.two {
+    display: flex;
+    /* background-color: blue; */
+    border-radius: 5px;
+    border-color: rgb(92, 67, 67);
+
+
+}
+
+.search-bar {
+    border-radius: 9px;
+    border-color: rgb(147, 10, 10);
+}
+
+
+.search {
+    position: relative;
+    z-index: 2;
+    right: 25px;
+}
+
+.three {
+    width: 100px;
+    background-color: rgb(2, 2, 18);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part {
+    display: flex;
+
+    width: auto;
+    height: 100vh;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(84, 99, 99);
+}
+
+.inner-part {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    
+padding: 5px;
+}
+
+.inner-part2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.xy{
+    width: 100vw;
+    height: 50vh;
+}
+img{
+    width: 100%;
+    height: 50vh;
+}
+.up{
+    height: 10vh;
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(199, 238, 127);
+    justify-content: space-between;
+    position: absolute;
+    top: 46.2vh;
+    /* left: 5.65vh; */
+    width: 100%;
+    z-index: 2;
+
+
+}
+.new{
+    background-color: rgb(189, 140, 238);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.uv{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+
+}
+.hii{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid rgb(57, 61, 50);
+    
+}
+.bii{
+    border: 10px solid rgb(17, 16, 16);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
